@@ -1,0 +1,93 @@
+# prop_name, value
+name,macaques
+description,"Dominance interactions among a group of adult female Japanese macaques (Macaca fuscata fuscata), observed during a non-mating season in 1976. Edge weights represent the frequency of interaction."
+citation,"['Y. Takahata. \"Diachronic changes in the dominance relations of adult female Japanese monkeys of the Arashiyama B group. The Monkeys of Arashiyama.\" State University of New York Press, Albany, 123-139 (1991), http://www.sunypress.edu/p-1128-the-monkeys-of-arashiyama.aspx']"
+url,http://konect.cc/networks/moreno_mac
+tags,"['Social', 'Animal', 'Weighted']"
+konect_meta,"category: Animal
+code: MQ
+name: Japanese macaques
+description: Animal–animal dominances
+entity-names: macaque
+extr: moreno
+url: http://moreno.ss.uci.edu/data.html#mac
+long-description: This directed network contains dominance behaviour in a colony of 62 adult female Japanese macaques (<i>Macaca fuscata fuscata</i>).  A node represents a macaque and a directed edge A → B represents dominance of macaque A over macaque B.
+relationship-names: dominance
+cite: konect:takahata1991
+"
+konect_readme,"Japanese macaques network, part of the Koblenz Network Collection
+===========================================================================
+
+This directory contains the TSV and related files of the moreno_mac network: This directed network contains dominance behaviour in a colony of 62 adult female Japanese macaques (<i>Macaca fuscata fuscata</i>).  A node represents a macaque and a directed edge A → B represents dominance of macaque A over macaque B.
+
+
+More information about the network is provided here: 
+http://konect.cc/networks/moreno_mac
+
+Files: 
+    meta.moreno_mac -- Metadata about the network 
+    out.moreno_mac -- The adjacency matrix of the network in whitespace-separated values format, with one edge per line
+      The meaning of the columns in out.moreno_mac are: 
+        First column: ID of from node 
+        Second column: ID of to node
+        Third column (if present): weight or multiplicity of edge
+        Fourth column (if present):  timestamp of edges Unix time
+        Third column: edge weight
+
+
+Use the following References for citation:
+
+@MISC{konect:2017:moreno_mac,
+    title = {Japanese macaques network dataset -- {KONECT}},
+    month = oct,
+    year = {2017},
+    url = {http://konect.cc/networks/moreno_mac}
+}
+
+@incollection{konect:takahata1991,
+	title = {Diachronic Changes in the Dominance Relations of Adult Female
+                  {Japanese} Monkeys of the {Arashiyama} {B} Group}, 
+	author = {Takahata, Yukio},
+	booktitle = {The Monkeys of {Arashiyama}:  Thirty-five Years of Res. in {Japan} and the {West}},
+	pages = {123--139},
+	year = {1991},
+	editor = {Fedigan, L. M. and Asquith, P. J.},
+}
+
+@incollection{konect:takahata1991,
+	title = {Diachronic Changes in the Dominance Relations of Adult Female
+                  {Japanese} Monkeys of the {Arashiyama} {B} Group}, 
+	author = {Takahata, Yukio},
+	booktitle = {The Monkeys of {Arashiyama}:  Thirty-five Years of Res. in {Japan} and the {West}},
+	pages = {123--139},
+	year = {1991},
+	editor = {Fedigan, L. M. and Asquith, P. J.},
+}
+
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+@inproceedings{konect,
+	title = {{KONECT} -- {The} {Koblenz} {Network} {Collection}},
+	author = {Jérôme Kunegis},
+	year = {2013},
+	booktitle = {Proc. Int. Conf. on World Wide Web Companion},
+	pages = {1343--1350},
+	url = {http://dl.acm.org/citation.cfm?id=2488173},
+	url_presentation = {https://www.slideshare.net/kunegis/presentationwow},
+	url_web = {http://konect.cc/},
+	url_citations = {https://scholar.google.com/scholar?cites=7174338004474749050},
+}
+
+
+"
